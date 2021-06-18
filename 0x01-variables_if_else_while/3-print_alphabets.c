@@ -12,12 +12,15 @@ int main(void)
 int i = 0;
 while (i < 26)
 {
-char character = 'a' + i;
-if (character != 'q' && character != 'e')
-{
-putchar(character);
-}
+putchar('a' + i);
 i++;
 }
+int j = 0;
+while (j < 26)
+{
+putchar('A' + j);
+j++;
+}
 putchar('\n');
+return (0);
 }

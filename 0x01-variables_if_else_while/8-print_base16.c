@@ -22,4 +22,5 @@ putchar('a' + j);
 j++;
 }
 putchar('\n');
+return (0);
 }
