@@ -10,12 +10,13 @@
 int main(void)
 {
 int i = 0;
+int j;
 while (i < 10)
 {
 putchar(48 + i);
 i++;
 }
-int j = 0;
+j = 0;
 while (j < 6)
 {
 putchar('a' + j);
