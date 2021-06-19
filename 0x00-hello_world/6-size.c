@@ -4,7 +4,7 @@
  * main - sizeof
  *
  * Description - prints size of data type
- * Return - returns 0
+ * Return: returns 0
  */
 
 int main(void)
