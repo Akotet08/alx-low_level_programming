@@ -19,7 +19,7 @@ void print_to_98(int n)
 			n--;
 		}
 		printf("\n");
-		return (0);
+		return;
 	}
 	else
 	{
@@ -29,6 +29,5 @@ void print_to_98(int n)
 			n++;
 		}
 		printf("\n");
-		return (0);
 	}
 }
