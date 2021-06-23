@@ -9,7 +9,11 @@
 
 int main(void)
 {
-	_putchar("Holberton");
-
+	char str[] = "Holberton\n";
+	for (int i = 0; i < 10; i++)
+	{
+		_putchar(str[i]);
+	}	
+	
 	return (0);
 }
