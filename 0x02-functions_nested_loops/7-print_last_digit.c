@@ -13,7 +13,7 @@ int print_last_digit(int n)
 {
 	int divisor = 10;
 
-	while (n > 9)
+	while (n > 9 || n < -9)
 	{
 		n = n % divisor;
 	}
