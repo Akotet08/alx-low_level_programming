@@ -12,7 +12,7 @@
 int print_last_digit(int n)
 {
 	int divisor = 10;
-	n = _abs(n);
+	n = abs(n);
 
 	while (n > 9)
 	{
