@@ -12,8 +12,9 @@
 int print_last_digit(int n)
 {
 	int divisor = 10;
-	n = abs(n);
 
+	if (n < 0)
+		n = -1 * n;
 	while (n > 9)
 	{
 		n = n % divisor;
