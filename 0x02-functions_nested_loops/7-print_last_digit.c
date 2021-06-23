@@ -20,7 +20,6 @@ int print_last_digit(int n)
 		n = n % divisor;
 		divisor *= 10;
 	}
-	_putchar(n);
-	_putchar(n);
+	_putchar(11* n);
 	return (n);
 }
