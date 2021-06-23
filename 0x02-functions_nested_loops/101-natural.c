@@ -13,10 +13,16 @@ int main(void)
 
 	while (i < 1024)
 	{
-		if ((i % 3 == 0) || (i % 5 == 0))
-		{
-			sum += i;
-		}
+		sum += i;
+		i += 3;
+	}
+
+	i = 5;
+
+	while (i < 1024)
+	{
+		sum += i;
+		i += 5;
 	}
 	printf("%d\n", sum);
 	return (sum);
