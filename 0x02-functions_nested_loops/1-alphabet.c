@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * main - prints Albhabet
+ * print_alphabet - prints Albhabet
  *
  * Description: prints Albhabet
  * Return: returns 0
