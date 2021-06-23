@@ -12,12 +12,14 @@
 int print_last_digit(int n)
 {
 	int divisor = 10;
+	n = _abs(n);
 
 	while (n > 9)
 	{
 		n = n % divisor;
 		divisor *= 10;
 	}
+	_putchar(n);
 	_putchar(n);
 	return (n);
 }
