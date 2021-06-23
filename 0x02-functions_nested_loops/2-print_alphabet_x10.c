@@ -9,10 +9,11 @@
 
 void print_alphabet_x10(void)
 {
-	int i = 0, j = 0;
+	int i, j = 0;
 
 	while (j < 10)
 	{
+		i = 0;
 		while (i < 26)
 		{
 
