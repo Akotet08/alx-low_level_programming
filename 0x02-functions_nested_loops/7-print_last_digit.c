@@ -18,7 +18,6 @@ int print_last_digit(int n)
 	while (n > 9)
 	{
 		n = n % divisor;
-		divisor *= 10;
 	}
 	_putchar('0' + n);
 	return (n);
