@@ -25,5 +25,5 @@ int main(void)
 		i += 5;
 	}
 	printf("%d\n", sum);
-	return (sum);
+	return (0);
 }
