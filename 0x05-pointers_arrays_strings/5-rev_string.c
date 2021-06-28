@@ -34,13 +34,14 @@ int strlen_(char *s)
 void rev_string(char *s)
 {
 	int i = 0, j = strlen_(s) - 1;
+	char temp;
 
 	while (1)
 	{
 		if ((i == j) || (j < i))
 			break;
 
-		char temp = s[i];
+		temp = s[i];
 
 		s[i] = s[j];
 		s[j] = temp;
