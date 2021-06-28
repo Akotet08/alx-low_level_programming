@@ -43,5 +43,5 @@ char *_strcpy(char *dest, char *src)
 			dest[index + 1] = '\0';
 		index++;
 	}
-	return dest;
+	return (dest);
 }
