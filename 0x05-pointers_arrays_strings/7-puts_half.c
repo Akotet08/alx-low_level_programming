@@ -38,7 +38,7 @@ void puts_half(char *str)
 	if (len % 2 == 0)
 		index = len / 2;
 	else
-		index = (len - 1) / 2;
+		index = (len - 1) / 2 + 1;
 
 	while (str[index] != '\0')
 	{
