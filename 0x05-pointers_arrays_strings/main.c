@@ -8,12 +8,14 @@
 
 int main(void)
 {
-	char s1[98];
-    	char *ptr;
+	int a;
+    	int b;
 
-    	ptr = _strcpy(s1, "First, solve the problem. Then, write the code\n");
-    	printf("%s", s1);
-    	printf("%s", ptr);
+    	a = 98;
+    	b = 42;
+    	printf("a=%d, b=%d\n", a, b);
+    	swap_int(&a, &b);
+    	printf("a=%d, b=%d\n", a, b);
 
 	return (0);
 }
