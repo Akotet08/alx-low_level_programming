@@ -39,6 +39,8 @@ char *_strcpy(char *dest, char *src)
 	while (index < strlen_(src))
 	{
 		dest[index] = src[index];
+		if (index == strlen_(src) - 1)
+			dest[index + 1] = '\0';
 		index++;
 	}
 	return dest;
